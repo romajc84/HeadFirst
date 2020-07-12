@@ -1,24 +1,27 @@
-public class JavaTest {
+class JavaTest {
 
     public static void main(String[] args) {
-        
-        int x = 3;
 
-        while (x > 0) {
-            if (x > 2) {
-                System.out.print("a");
-                x = x - 1;
-                System.out.print("-");
+        int x = 0;
+
+        while (x < 4) {
+            System.out.print("a");
+            if (x < 1) {
+                System.out.print(" ");
             }
-            if (x == 2) {
-                System.out.print("b c");
-                x = x - 1;
-                System.out.print("-");
+            System.out.print("n");
+            if (x > 1) {
+                System.out.print("oyster");
+                x = x + 2;
             }
             if (x == 1) {
-                System.out.print("d");
-                x = x - 1;
+                System.out.print("noys");
             }
+            if (x < 1) {
+                System.out.print("oise");
+            }
+            System.out.println("");
+            x = x + 1;
         }
 
     }
